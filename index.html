@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Forge Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="sidebar" id="sidebarMenu">
+        <div class="sidebar-header">
+            <button class="close-btn" id="closeToggle">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <div class="sidebar-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#programs">Programs</a>
+            <a href="#why-us">Why Us</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    
+    <div class="sidebar-overlay" id="menuOverlay"></div>
+
+    <nav class="navbar">
+        <button class="hamburger" id="openToggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="logo">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>STUDENT <strong>FORGE</strong></span>
+        </div>
+
+        <div class="desktop-nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#programs">Programs</a>
+            <a href="#why-us">Why Us</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
+        </div>
+        
+        <a href="#cta" class="nav-btn">Join Now</a>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="container hero-split">
+            <div class="hero-text">
+                <h1>Transform Your Skills Into <br><span class="blue-text">Career Opportunities</span></h1>
+                <h3>Learn. Build. Grow. Get Hired.</h3>
+                <p>Student Forge helps students gain industry-ready skills through bootcamps, projects, mentorship, internships, and placement support.</p>
+                <div class="hero-btns">
+                    <a href="#cta" class="btn btn-blue">Join Now</a>
+                    <a href="#programs" class="btn btn-outline">Explore Programs</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <i class="fa-solid fa-laptop-code graphic-main"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="stats">
+        <div class="container stats-flex">
+            <div class="stat-box">
+                <i class="fa-solid fa-user-graduate i-blue"></i>
+                <h2>500+</h2>
+                <p>Students Trained</p>
+            </div>
+            <div class="stat-box">
+                <i class="fa-solid fa-briefcase i-purple"></i>
+                <h2>100+</h2>
+                <p>Internship Opportunities</p>
+            </div>
+            <div class="stat-box">
+                <i class="fa-solid fa-rocket i-cyan"></i>
+                <h2>50+</h2>
+                <p>Real-Time Projects</p>
+            </div>
+            <div class="stat-box">
+                <i class="fa-solid fa-star i-orange"></i>
+                <h2>95%</h2>
+                <p>Student Satisfaction</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container about-split">
+            <div class="about-text">
+                <h2>About Student Forge</h2>
+                <p class="sub-text">Student Forge is a career acceleration platform helping students bridge the gap between academics and industry.</p>
+                <ul class="checkmark-list">
+                    <li><i class="fa-solid fa-circle-check"></i> Full Stack Development</li>
+                    <li><i class="fa-solid fa-circle-check"></i> UI/UX Design</li>
+                    <li><i class="fa-solid fa-circle-check"></i> AI & Emerging Technologies</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Internship Support</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Resume Building</li>
+                    <li><i class="fa-solid fa-circle-check"></i> Interview Preparation</li>
+                </ul>
+            </div>
+            <div class="about-image">
+                <i class="fa-solid fa-user-astronaut graphic-main"></i>
+            </div>
+        </div>
+    </section>
+
+    <section id="programs" class="programs">
+        <div class="container">
+            <h2 class="section-title text-center">Our Programs</h2>
+            <div class="programs-flex">
+                <div class="program-card">
+                    <i class="fa-solid fa-code i-blue"></i>
+                    <h3>Full Stack Development</h3>
+                    <p>Become a job-ready developer by building real-world projects.</p>
+                </div>
+                <div class="program-card">
+                    <i class="fa-solid fa-bezier-curve i-pink"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Learn design thinking and create beautiful user experiences.</p>
+                </div>
+                <div class="program-card">
+                    <i class="fa-solid fa-robot i-green"></i>
+                    <h3>AI & Productivity Tools</h3>
+                    <p>Master modern AI tools and workflows effectively.</p>
+                </div>
+                <div class="program-card">
+                    <i class="fa-solid fa-paper-plane i-orange"></i>
+                    <h3>Career Launch Program</h3>
+                    <p>Resume Building, LinkedIn Optimization, Mock Interviews, and Placement Guidance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="split-section">
+        <div class="container split-flex">
+            
+            <div id="why-us" class="why-side">
+                <h2 class="text-white">Why Choose Us</h2>
+                <div class="why-grid">
+                    <div class="why-box"><i class="fa-solid fa-display"></i><p>Industry-Oriented Training</p></div>
+                    <div class="why-box"><i class="fa-solid fa-screwdriver-wrench"></i><p>Hands-On Projects</p></div>
+                    <div class="why-box"><i class="fa-solid fa-chalkboard-user"></i><p>Expert Mentorship</p></div>
+                    <div class="why-box"><i class="fa-solid fa-handshake-angle"></i><p>Internship Opportunities</p></div>
+                    <div class="why-box"><i class="fa-solid fa-map-signs"></i><p>Career Guidance</p></div>
+                    <div class="why-box"><i class="fa-solid fa-headset"></i><p>Placement Support</p></div>
+                </div>
+            </div>
+
+            <div id="testimonials" class="testimonials-side">
+                <h2>Student Testimonials</h2>
+                <div class="t-flex">
+                    <div class="t-box">
+                        <p>"Student Forge helped me build confidence and secure internship opportunities."</p>
+                        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <h4>- Riya Sharma</h4>
+                    </div>
+                    <div class="t-box">
+                        <p>"Practical learning and real-world projects made all the difference."</p>
+                        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <h4>- Arjun Verma</h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="cta" class="cta">
+        <div class="container cta-box">
+            <div class="cta-left">
+                <i class="fa-solid fa-graduation-cap cta-cap"></i>
+                <div class="cta-text-group">
+                    <h2>Ready to Start Your Journey?</h2>
+                    <p>Join Student Forge today and build the skills that companies are looking for.</p>
+                </div>
+            </div>
+            <button class="cta-btn">Enroll Now</button>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="logo logo-white">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <span>STUDENT <strong>FORGE</strong></span>
+                </div>
+                <p>Building Future Developers🚀</p>
+            </div>
+            <div class="footer-links-col">
+                <h4>Quick Links</h4>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#programs">Programs</a>
+                <a href="#why-us">Why Us</a>
+                <a href="#testimonials">Testimonials</a>
+            </div>
+            <div class="footer-links-col">
+                <h4>Programs</h4>
+                <p>Full Stack Development</p>
+                <p>UI/UX Design</p>
+                <p>AI & Productivity Tools</p>
+                <p>Career Launch Program</p>
+            </div>
+            <div class="footer-links-col">
+                <h4>Contact Us</h4>
+                <p><i class="fa-solid fa-envelope"></i> info@studentforge.in</p>
+                <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+                <p><i class="fa-solid fa-location-dot"></i> India</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Student Forge. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const openToggle = document.getElementById('openToggle');
+        const closeToggle = document.getElementById('closeToggle');
+        const sidebarMenu = document.getElementById('sidebarMenu');
+        const menuOverlay = document.getElementById('menuOverlay');
+
+        // Show sidebar drawer
+        openToggle.addEventListener('click', function() {
+            sidebarMenu.classList.add('open');
+            menuOverlay.classList.add('active');
+        });
+
+        // Hide sidebar drawer
+        closeToggle.addEventListener('click', function() {
+            sidebarMenu.classList.remove('open');
+            menuOverlay.classList.remove('active');
+        });
+
+        // Hide sidebar if background overlay area is clicked
+        menuOverlay.addEventListener('click', function() {
+            sidebarMenu.classList.remove('open');
+            menuOverlay.classList.remove('active');
+        });
+
+        // Auto collapse sidebar when any navigation link item is clicked
+        const listLinks = sidebarMenu.querySelectorAll('a');
+        listLinks.forEach(function(link) {
+            link.addEventListener('click', function() {
+                sidebarMenu.classList.remove('open');
+                menuOverlay.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
